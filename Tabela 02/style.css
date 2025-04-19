@@ -15,6 +15,10 @@ th, td {
     border: 1px solid #000;
 }
 
+tbody > tr:nth-child(even) {
+    background-color: #b8fab8;
+}
+
 thead, tfoot {
     background-color: green;
     color: #fff;
